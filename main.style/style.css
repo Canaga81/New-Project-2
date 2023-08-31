@@ -148,6 +148,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    position: relative;
 }
 
 /* H1-P */
@@ -208,4 +209,26 @@ html {
 
 .heavy-right .heavy-image img {
     width: 100%;
+}
+
+/*? Heavy-Left-Image */
+
+/* Left-Line-Image */
+
+.heavy-left .heavy-left-image img {
+    position: absolute;
+    top: -20rem;
+    left: -6rem;
+    z-index: -1;
+}
+
+/*! Kategoriya */
+
+.kategoriya-card{
+    position: relative;
+}
+.kategoriya-card a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
