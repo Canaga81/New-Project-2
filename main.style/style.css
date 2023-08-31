@@ -620,6 +620,30 @@ html {
     transition: var(--transition-button);
 }
 
-.tech-button-yellow a:hover{
+.tech-button-yellow a:hover {
     opacity: 0.81;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
