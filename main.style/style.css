@@ -10,10 +10,11 @@
     --text-color: #353535;
     --hover-color: rgb(241, 62, 62);
     --transition-text: all 0.126s ease-in;
-    --baslig-color:#596C72;
+    --baslig-color: #596C72;
     --transition-button: all 0.24s ease;
     --transition-box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.5);
     --card-text-color: #686868;
+    --history-text-color: #B0ADAD;
 }
 
 html {
@@ -441,7 +442,7 @@ html {
 /*? Tech */
 
 .tech {
-    padding: 0 6rem;
+    padding: 9rem 6rem;
 }
 
 .tech-container {
@@ -466,6 +467,8 @@ html {
     gap: 2rem;
 }
 
+/*? Card-Style */
+
 .tech-center-container .tech-card {
     position: relative;
     width: 31.5rem;
@@ -475,6 +478,8 @@ html {
     cursor: pointer;
     transition: var(--transition-button);
 }
+
+/*? Tech-Image */
 
 .tech-center-container .tech-card .tech-image img {
     width: 100%;
@@ -497,9 +502,12 @@ html {
     gap: 3rem;
 }
 
+/*? Line-1 */
+
 .tech-center-container .tech-card .tech-text-content .tech-line-1 {
     display: flex;
     flex-direction: column;
+    align-items: start;
     gap: 1rem;
 }
 
@@ -521,12 +529,97 @@ html {
 .tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-begin .tech-name {
     color: var(--card-text-color);
     font-family: Mulish;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-continue {
-    
+.tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-continue .history {
+    color: var(--history-text-color);
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*? Line-2 */
+
+.tech-center-container .tech-card .tech-text-content .tech-line-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.tech-center-container .tech-card .tech-text-content .tech-line-2 .tech-money {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.tech-center-container .tech-card .tech-text-content .tech-line-2 .tech-money p {
+    color: var(--orange-color);
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tech-center-container .tech-card .tech-text-content .tech-button a {
+    width: 25.5rem;
+    height: 4rem;
+    border-radius: 30px;
+    border: 1px solid var(--card-text-color);
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*? Text */
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /*? Hover Ucun */
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.tech-center-container .tech-card .tech-text-content .tech-button a:hover {
+    background-color: var(--orange-color);
+    color: #fff;
+}
+
+/*? Yellow Button */
+
+.tech-button-yellow {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.tech-button-yellow a {
+    width: 18.9rem;
+    height: 4rem;
+    border-radius: 30px;
+    background: var(--orange-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*? Text */
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.tech-button-yellow a:hover{
+    opacity: 0.81;
 }
