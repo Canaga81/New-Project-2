@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange-color:#FFC01F;
+    --text-color:#353535;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*! Header */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*? Ustdeki Navbar */
+
+.header-navbar-1 {
+    padding: 1.4rem 6rem;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--orange-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+/*? Header-text */
+
+.header-navbar-1 .header-text-num p {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*? Header Social */
+
+.header-navbar-1 .header-social {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.header-navbar-1 .header-social a i {
+    font-size: 1.4rem;
+}
