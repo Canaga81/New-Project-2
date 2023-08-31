@@ -6,10 +6,11 @@
 }
 
 :root {
-    --orange-color:#FFC01F;
-    --text-color:#353535;
+    --orange-color: #FFC01F;
+    --text-color: #353535;
     --hover-color: rgb(241, 62, 62);
     --transition-text: all 0.126s ease-in;
+    --baslig-color:#596C72;
 }
 
 html {
@@ -72,6 +73,8 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #FFF;
+    box-shadow: 0px 2px 7px 0px rgba(159, 159, 159, 0.25);
 }
 
 /*? Buttons-a */
@@ -125,3 +128,54 @@ html {
 }
 
 /*! Heavy */
+
+.heavy {
+    padding: 0 6rem;
+}
+
+.heavy-container {
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*? Heavy-Left */
+
+.heavy-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+/* H1-P */
+
+.heavy-left .heavy-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.heavy-left .heavy-text h1 {
+    width: 65rem;
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.heavy-left .heavy-text .heavy-paragraph {
+    width: 47rem;
+}
+
+.heavy-left .heavy-text .heavy-paragraph p {
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
