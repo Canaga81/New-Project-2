@@ -7,3 +7,13 @@ let swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   spaceBetween: 0,
 });
+
+
+let swiper2 = new Swiper(".youSwiper", {
+  loop:true,
+  slidesPerView: 7,
+  spaceBetween: 0,
+  autoplay: {
+    delay: 1500,
+  },
+});

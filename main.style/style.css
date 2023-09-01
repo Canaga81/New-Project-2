@@ -674,3 +674,31 @@ html {
     font-size: 1.5rem;
     color: var(--card-text-color);
 }
+
+/*! Companies */
+
+.companies {
+    padding: 7rem 0rem;
+}
+
+.companies-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5.2rem;
+}
+
+.companies-top-container h2 {
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.companies-center-container {
+    display: flex;
+    align-items: center;
+    gap: 8.3rem;
+}
