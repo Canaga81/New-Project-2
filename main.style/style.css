@@ -16,6 +16,7 @@
     --card-text-color: #686868;
     --history-text-color: #B0ADAD;
     --background-color-grey:#EFEFEF;
+    --ana-sehife-text-color:#ADADAD;
 }
 
 html {
@@ -440,7 +441,7 @@ html {
     line-height: normal;
 }
 
-/*? Tech */
+/*! Tech */
 
 .tech {
     padding: 9rem 6rem;

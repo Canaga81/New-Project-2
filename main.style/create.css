@@ -16,6 +16,7 @@
     --card-text-color: #686868;
     --history-text-color: #B0ADAD;
     --background-color-grey:#EFEFEF;
+    --ana-sehife-text-color:#ADADAD;
 }
 
 html {
@@ -130,4 +131,235 @@ html {
 
 .header-navbar-2 .header-languages a:hover {
     font-weight: 800;
+}
+
+/*! Info */
+
+.info {
+    padding: 2rem 6rem;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+}
+
+/*? Info Ana-Sehife Button */
+
+.info-top-container p {
+    color: var(--baslig-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info-top-container p a {
+    color: var(--ana-sehife-text-color);
+    font-weight: 400;
+    transition: var(--transition-text);
+}
+
+.info-top-container p a:hover {
+    color: var(--hover-color);
+}
+
+/*? Info-center */
+
+.info-center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+/*? Info-Head */
+
+.info-content .info-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.info-content .info-head h1 {
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info-content .info-head h4 {
+    color: var(--orange-color);
+    font-family: Mulish;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info-content .info-paragraph {
+    width: 52.2rem;
+    color: var(--text-color);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/*? Info Image Content */
+
+.info-content-image .info-image {
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.info-content-image .info-image:hover {
+    box-shadow: var(--transition-box-shadow);
+}
+
+/*? Image */
+
+.info-content-image .info-image img {
+    padding: 1.8rem 3.6rem;
+    width: 100%;
+}
+
+/*! Test */
+
+.test {
+    padding: 9rem 6rem;
+}
+
+.test-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+/*? Left */
+
+/*? Left-Image */
+
+.test-left .test-image {
+    width: 42rem;
+    height: 63rem;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.test-left .test-image:hover {
+    box-shadow: var(--transition-box-shadow);
+}
+
+.test-left .test-image img {
+    width: 100%;
+    padding: 1.8rem;
+}
+
+/*? Right */
+
+.test-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+/*? Left-Image */
+
+.test-right .test-image {
+    width: 83.7rem;
+    height: 55.8rem;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.test-right .test-image:hover {
+    box-shadow: var(--transition-box-shadow);
+}
+
+.test-right .test-image img {
+    width: 100%;
+    padding: 1.8rem;
+}
+
+/*? Text-General */
+
+.test-right .test-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.test-right .test-text-content .test-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.test-right .test-text-content .test-text h1 {
+    width: 73.4rem;
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.test-right .test-text-content .test-text .test-paragraph {
+    width: 67rem;
+}
+
+.test-right .test-text-content .test-text .test-paragraph p {
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.test-right .test-text-content .test-button .test-btn {
+    width: 14.7rem;
+    height: 4rem;
+    border-radius: 30px;
+    border: 1px solid var(--text-color);
+    background: transparent;
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.test-right .test-text-content .test-button .test-btn:hover {
+    background-color: var(--orange-color);
+}
+
+.test-right .test-text-content .test-button .test-btn a {
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
