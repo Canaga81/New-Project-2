@@ -945,3 +945,71 @@ html {
 .email-right .email-image img {
     width: 100%;
 }
+
+/*! Choose */
+
+.choose {
+    padding: 7rem 6rem;
+}
+
+.choose-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*? Left */
+
+.choose-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.choose-left h2 {
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+/*? Left-Head */
+
+.choose-left h2 span {
+    font-size: 1rem;
+}
+
+.choose-left .choose-paragraph {
+    width: 50.3rem;
+}
+
+.choose-left .choose-paragraph p {
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+}
+
+/*? Right */
+
+.choose-right .choose-image {
+    width: 67.7rem;
+    height: 46.1rem;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.choose-right .choose-image:hover {
+    box-shadow: var(--transition-box-shadow);
+}
+
+.choose-right .choose-image img {
+    padding: 1.8rem;
+    width: 100%;
+}
