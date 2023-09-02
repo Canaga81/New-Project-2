@@ -167,3 +167,189 @@ html {
 .product-top-container p a:hover {
     color: var(--hover-color);
 }
+
+.product-center-container {
+    display: flex;
+    gap: 2rem;
+}
+
+/*? Left */
+
+.product-left-container {
+    display: flex;
+    gap: 1.1rem;
+}
+
+/*? Content 1 */
+
+.product-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product-content-1 .product-image {
+    width: 7.2rem;
+    height: 9.5rem;
+    border: 1px solid var(--orange-color);
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.product-content-1 .product-image {
+    box-shadow: var(--transition-box-shadow);
+}
+
+.product-content-1 .product-image img {
+    width: 100%;
+}
+
+/*? Content 2 */
+
+.product-content-2 .product-big-image {
+    width: 48.2rem;
+    height: 59.7rem;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.product-content-2 .product-big-image:hover {
+    box-shadow: var(--transition-box-shadow);
+}
+
+/*? Content 3 */
+
+/*? Card */
+
+.product-content-3 .product-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8.3rem;
+    padding: 9.6rem 5rem;
+    width: 56.6rem;
+    height: 59.7rem;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+}
+
+/*? Line-1 */
+
+.product-card .product-line-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.product-card .product-line-1 .product-text-history {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card .product-line-1 .product-text-history .product-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.product-card .product-line-1 .product-text-history .product-text h3 {
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product-card .product-line-1 .product-text-history .product-text p {
+    color: var(--card-text-color);
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*? History */
+
+.product-card .product-line-1 .product-text-history .product-history .date {
+    color: var(--history-text-color);
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product-card .product-line-1 .product-paragraph {
+    width: 46.6rem;
+}
+
+.product-card .product-line-1 .product-paragraph p {
+    color: #69768B;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/*? Line 2 */
+
+.product-card .product-line-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+}
+
+.product-card .product-line-2 .product-money {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card .product-line-2 .product-money h5 {
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product-card .product-line-2 .product-money p {
+    color: var(--orange-color);
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product-card .product-button-line .product-button {
+    width: 46.6rem;
+    height: 4rem;
+    border-radius: 30px;
+    background: #FFC01F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.product-card .product-button-line .product-button:hover {
+    opacity: 0.81;
+}
+
+.product-card .product-button-line .product-button a {
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
