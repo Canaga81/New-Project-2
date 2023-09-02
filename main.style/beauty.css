@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --orange-color: #FFC01F;
+    --text-color: #353535;
+    --hover-color: rgb(241, 62, 62);
+    --transition-text: all 0.126s ease-in;
+    --baslig-color: #596C72;
+    --transition-button: all 0.24s ease;
+    --transition-box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.5);
+    --card-text-color: #686868;
+    --history-text-color: #B0ADAD;
+    --background-color-grey:#EFEFEF;
+    --ana-sehife-text-color:#ADADAD;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*! Header */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*? Ustdeki Navbar */
+
+.header-navbar-1 {
+    padding: 1.4rem 6rem;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--orange-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+/*? Header-text */
+
+.header-navbar-1 .header-text-num p {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*? Header Social */
+
+.header-navbar-1 .header-social {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.header-navbar-1 .header-social a i {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    transition: var(--transition-text);
+}
+
+.header-navbar-1 .header-social a i:hover {
+    color: var(--hover-color);
+}
+
+/*? Altdaki Navbar */
+
+.header-navbar-2 {
+    width: 100%;
+    height: 11.8rem;
+    background: #fff;
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 2px 7px 0px rgba(159, 159, 159, 0.25);
+}
+
+/*? Buttons-a */
+
+.header-navbar-2 .header-btns {
+    display: flex;
+    align-items: center;
+    gap: 5.4rem;
+}
+
+.header-navbar-2 .header-btns a {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: var(--transition-text);
+}
+
+.header-navbar-2 .header-btns a:hover {
+    color: var(--hover-color);
+}
+
+/*? Texnikalar btn-icon */
+
+.header-navbar-2 .header-btns .btn-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-navbar-2 .header-btns .btn-icon i {
+    color: var(--orange-color);
+}
+
+/*? Languages */
+
+.header-navbar-2 .header-languages a {
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: var(--transition-text);
+}
+
+.header-navbar-2 .header-languages a:hover {
+    font-weight: 800;
+}
