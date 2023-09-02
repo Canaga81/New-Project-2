@@ -132,3 +132,38 @@ html {
 .header-navbar-2 .header-languages a:hover {
     font-weight: 800;
 }
+
+/*! Product */
+
+.product {
+    padding: 2rem 14.4rem;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6.6rem;
+}
+
+.product-top-container p {
+    color: var(--baslig-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.product-top-container p a {
+    color: var(--ana-sehife-text-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: var(--transition-text);
+}
+
+.product-top-container p a:hover {
+    color: var(--hover-color);
+}
