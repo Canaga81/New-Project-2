@@ -133,6 +133,148 @@ html {
     font-weight: 800;
 }
 
+/*? Message */
+
+.message {
+    padding: 2rem 6rem;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8.3rem;
+}
+
+.message-top-container p {
+    color: var(--baslig-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.message-top-container p a {
+    color: var(--ana-sehife-text-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: var(--transition-text);
+}
+
+.message-top-container p a:hover {
+    color: var(--hover-color);
+}
+
+.message-center-container {
+    display: flex;
+    gap: 18rem;
+}
+
+/*? Left */
+
+.message-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5.8rem;
+}
+
+.message-head h2 {
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.message-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.message-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.message-inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.message-inputs-container .message-inputs {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.message-inputs-container .message-inputs input {
+    width: 31.5rem;
+    height: 4rem;
+    border-radius: 30px;
+    border: 1px solid var(--text-color);
+    padding-left: 2.3rem;
+    outline: none;
+}
+
+.message-inputs-container .message-inputs input::placeholder {
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.message-textarea textarea {
+    width: 65rem;
+    height: 12.7rem;
+    border-radius: 30px;
+    border: 1px solid var(--text-color);
+    padding-top: 1.2rem;
+    padding-left: 2.3rem;
+    outline: none;
+    resize: none;
+}
+
+.message-textarea textarea::placeholder {
+    color: var(--text-color);
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.message-button .message-btn {
+    width: 65rem;
+    height: 4rem;
+    border-radius: 30px;
+    background: var(--orange-color);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.message-button .message-btn:hover {
+    background-color: #c79003;
+}
+
+.message-button .message-btn a {
+    color: #ebe7e7;
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 /*! Footer */
 
 footer {
