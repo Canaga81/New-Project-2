@@ -133,10 +133,12 @@ html {
     font-weight: 800;
 }
 
-/*? Message */
+/*! Message */
 
 .message {
-    padding: 2rem 6rem;
+    padding: 0 6rem;
+    padding-top: 2rem;
+    padding-bottom: 15rem;
 }
 
 .message-container {
@@ -273,6 +275,102 @@ html {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/*? Right */
+
+.message-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.8rem;
+    width: 42.7rem;
+    height: 46.7rem;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.6);
+}
+
+.message-card .message-head h3 {
+    margin-top: 7.3rem;
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.message-card .message-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4.6rem;
+}
+
+.message-card .message-content .message-line-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+}
+
+.message-card .message-content .message-line-1 .message-line-item-1 a {
+    color: #69768B;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.message-card .message-content .message-line-1 .message-line-item-2 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.message-card .message-content .message-line-1 .message-line-item-2 a {
+    color: #69768B;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.message-card .message-content .message-line-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+}
+
+.message-card .message-content .message-line-2 .message-item a {
+    color: #69768B;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.message-card .message-content .message-line-2 .message-icons {
+    display: flex;
+    align-items: center;
+    gap: 3.25rem;
+}
+
+.message-card .message-content .message-line-2 .message-icons a i {
+    font-size: 1.9rem;
+    color: var(--text-color);
+    transition: var(--transition-text);
+}
+
+.message-card .message-content .message-line-2 .message-icons a i:hover {
+    color: #893737;
 }
 
 /*! Footer */
