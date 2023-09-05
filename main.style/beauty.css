@@ -336,35 +336,50 @@ html {
     line-height: normal;
 }
 
-.product-card .product-button-line .product-button {
+.product-card .product-button-line #prdc-btn {
     width: 46.6rem;
     height: 4rem;
+    border: none;
     border-radius: 30px;
-    background: #FFC01F;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: var(--transition-button);
-}
-
-.product-card .product-button-line .product-button:hover {
-    opacity: 0.81;
-}
-
-.product-card .product-button-line .product-button a {
+    background: var(--orange-color);
     color: var(--text-color);
     font-family: Mulish;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.product-card .product-button-line #prdc-btn:hover {
+    background-color: #c08b07;
 }
 
 /*? Active */
 
+.prdc-container {
+    opacity: 0;
+    transition: var(--transition-button);
+    /* display: none; */
+    visibility: hidden;
+}
+
+.bg-gray{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 9;
+    inset: 0;
+}
 .prdc-container.active {
+    opacity: 1;
+    visibility: visible;
+    transition: var(--transition-button);
     width: 87.4rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 47rem;
     background: #FFF;
     box-shadow: 0px 0px 7px 0px rgba(176, 176, 176, 0.5);
@@ -373,6 +388,22 @@ html {
     align-items: center;
     flex-direction: column;
     gap: 3rem;
+    z-index: 100;
+}
+
+/*? Icon X-Mark */
+
+.prdc-container.active .prdc-icon .modal_close_btn i {
+    position: absolute;
+    top: 3rem;
+    right: 3.6rem;
+    font-size: 1.5rem;
+    color: rgb(210, 153, 153);
+    transition: var(--transition-text);
+}
+
+.prdc-container.active .prdc-icon a i:hover {
+    color: red;
 }
 
 .prdc-container.active .prdc-head h3 {
