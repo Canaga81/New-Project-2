@@ -303,6 +303,26 @@ html {
     line-height: normal;
 }
 
+.tech.second {
+    margin-top: -19rem;
+}
+
+.tech-center-container .buttons {
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10005;
+    display: flex;
+    align-items: center;
+    gap: 18rem;
+}
+
+.tech-center-container .buttons a {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
 /*! Footer */
 
 footer {
