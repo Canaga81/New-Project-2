@@ -15,8 +15,8 @@
     --transition-box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.5);
     --card-text-color: #686868;
     --history-text-color: #B0ADAD;
-    --background-color-grey:#EFEFEF;
-    --ana-sehife-text-color:#ADADAD;
+    --background-color-grey: #EFEFEF;
+    --ana-sehife-text-color: #ADADAD;
 }
 
 html {
@@ -227,6 +227,80 @@ html {
 .pictures-right .pictures-image img {
     width: 100%;
     padding: 1.8rem;
+}
+
+/*! Tech */
+
+/*! Tech */
+
+.tech {
+    padding: 9rem 6rem;
+}
+
+.tech-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: start;
+}
+
+.tech-center-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+/*? Card-Style */
+
+.tech-center-container .tech-card {
+    position: relative;
+    width: 31.5rem;
+    height: 38.2rem;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+/*? Tech-Image */
+
+.tech-center-container .tech-card .tech-image img {
+    width: 100%;
+}
+
+.tech-center-container .tech-card:hover {
+    box-shadow: var(--transition-box-shadow);
+}
+
+.tech-center-container .tech-card a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.tech-text-content {
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.tech-text-content .tech-a {
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tech-text-content .history-text {
+    color: var(--card-text-color);
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /*! Footer */
