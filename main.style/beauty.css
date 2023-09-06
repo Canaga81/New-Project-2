@@ -399,6 +399,7 @@ html {
     right: 3.6rem;
     font-size: 1.5rem;
     color: rgb(210, 153, 153);
+    cursor: pointer;
     transition: var(--transition-text);
 }
 
