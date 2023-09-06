@@ -23,11 +23,26 @@ const closeBtn2 = document.querySelector(".modal_close_btn_2");
 
 btnCash.addEventListener("click", () => {
     prdcContainer.classList.remove('active');
-
     prdcContainerCash.classList.add('passif');
 });
 
 closeBtn2.addEventListener("click", () => {
     prdcContainerCash.classList.remove('passif');
+    activeContainer.classList.remove('bg-gray');
+});
+
+//! Modal-3
+
+const btnLoading = document.getElementById("loading");
+const prdcContainerLoading = document.querySelector(".prdc-container-loading");
+const closeBtn3 = document.querySelector(".modal_close_btn_3")
+
+btnLoading.addEventListener("click", () => {
+    prdcContainerCash.classList.remove('passif');
+    prdcContainerLoading.classList.add('active');
+});
+
+closeBtn3.addEventListener("click", () => {
+    prdcContainerLoading.classList.remove('active');
     activeContainer.classList.remove('bg-gray');
 });

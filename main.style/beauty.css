@@ -473,6 +473,13 @@ html {
 
 /*! Cash */
 
+.prdc-container-cash {
+    opacity: 0;
+    transition: var(--transition-button);
+    /* display: none; */
+    visibility: hidden;
+}
+
 .prdc-container-cash.passif {
     opacity: 1;
     visibility: visible;
@@ -595,6 +602,76 @@ html {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/*! Loading */
+
+.prdc-container-loading {
+    opacity: 0;
+    transition: var(--transition-button);
+    /* display: none; */
+    visibility: hidden;
+}
+
+.prdc-container-loading.active {
+    opacity: 1;
+    visibility: visible;
+    transition: var(--transition-button);
+    width: 87.4rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 47rem;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(176, 176, 176, 0.5);
+    padding: 8rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    z-index: 100;
+}
+
+.prdc-container-loading.active.progress-container {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.prdc-container-loading.active.progress-bar {
+    height: 30px;
+    width: 0;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.prdc-container-loading.active .prdc-icon .modal_close_btn_3 i {
+    position: absolute;
+    top: 3rem;
+    right: 3.6rem;
+    font-size: 1.5rem;
+    color: rgb(210, 153, 153);
+    cursor: pointer;
+    transition: var(--transition-text);
+}
+
+.loading-line {
+    width: 0;
+    height: 3px;
+    margin-top: 15rem;
+    background-color: var(--orange-color);
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
 }
 
 /*! Tech */
