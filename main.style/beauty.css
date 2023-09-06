@@ -15,8 +15,8 @@
     --transition-box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.5);
     --card-text-color: #686868;
     --history-text-color: #B0ADAD;
-    --background-color-grey:#EFEFEF;
-    --ana-sehife-text-color:#ADADAD;
+    --background-color-grey: #EFEFEF;
+    --ana-sehife-text-color: #ADADAD;
 }
 
 html {
@@ -365,12 +365,13 @@ html {
     visibility: hidden;
 }
 
-.bg-gray{
+.bg-gray {
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
     z-index: 9;
     inset: 0;
 }
+
 .prdc-container.active {
     opacity: 1;
     visibility: visible;
@@ -462,6 +463,132 @@ html {
 }
 
 .prdc-container.active .prdc-bottom .prdc-button .prdc-btn a {
+    color: #fff;
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*! Cash */
+
+.prdc-container-cash.passif {
+    opacity: 1;
+    visibility: visible;
+    transition: var(--transition-button);
+    width: 87.4rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 47rem;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(176, 176, 176, 0.5);
+    padding: 8rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    z-index: 100;
+}
+
+.prdc-container-cash.passif .prdc-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.prdc-container-cash.passif .prdc-icon .modal_close_btn_2 i {
+    position: absolute;
+    top: 3rem;
+    right: 3.6rem;
+    font-size: 1.5rem;
+    color: rgb(210, 153, 153);
+    cursor: pointer;
+    transition: var(--transition-text);
+}
+
+.prdc-container-cash.passif .prdc-head-prgp p {
+    margin-top: -3.6rem;
+    color: var(--text-color);
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.prdc-container-cash.passif .prdc-head-prgp p span {
+    color: var(--orange-color);
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.prdc-container-cash.passif .input-text-great {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.prdc-container-cash.passif .input-text-great p {
+    color: #69768B;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 4rem;
+}
+
+.prdc-container-cash.passif .input-text-great .input-big {
+    width: 48.1rem;
+    height: 4rem;
+    border-radius: 30px;
+    border: 1px solid var(--text-color);
+    padding: 0 4rem;
+    outline: none;
+}
+
+.prdc-container-cash.passif .cash-text.add {
+    display: flex;
+    align-items: center;
+    gap: 18.7rem;
+}
+
+.prdc-container-cash.passif .cash-inputs {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.prdc-container-cash.passif .cash-inputs .input-small {
+    width: 15.5rem;
+    height: 4rem;
+    border-radius: 30px;
+    border: 1px solid var(--text-color);
+    padding: 0 4rem;
+    outline: none;
+}
+
+.prdc-container-cash.passif .prdc-bottom .prdc-button .prdc-btn {
+    width: 48.1rem;
+    height: 4rem;
+    border-radius: 30px;
+    background: #FFC01F;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-button);
+}
+
+.prdc-container-cash.passif .prdc-bottom .prdc-button .prdc-btn:hover {
+    background: #c08b07;
+}
+
+.prdc-container-cash.passif .prdc-bottom .prdc-button .prdc-btn a {
     color: #fff;
     font-family: Mulish;
     font-size: 1.2rem;
