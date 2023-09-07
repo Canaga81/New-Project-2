@@ -1185,6 +1185,12 @@ footer {
         text-align: center;
     }
 
+    /*? Card-Text */
+
+    .kategoriya-card .card-text p {
+        padding-top: 2.5rem;
+    }
+
     /*! Test */
 
     .test {
@@ -1302,6 +1308,18 @@ footer {
 
     .footer-right {
         gap: 10rem;
+    }
+
+}
+
+@media(max-width: 720px) {
+
+    /*! Header */
+
+    /*? Navbar-2(Asagi) */
+
+    .header-navbar-2 {
+        gap: 3rem;
     }
 
 }
