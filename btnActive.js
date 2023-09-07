@@ -10,7 +10,7 @@ btnActive.addEventListener("click", () => {
     prdcContainer.classList.add('active');
 });
 
-closeBtn.addEventListener("click",()=> {
+closeBtn.addEventListener("click", () => {
     activeContainer.classList.remove('bg-gray');
     prdcContainer.classList.remove('active');
 });
@@ -42,7 +42,32 @@ btnLoading.addEventListener("click", () => {
     prdcContainerLoading.classList.add('active');
 });
 
+
 closeBtn3.addEventListener("click", () => {
     prdcContainerLoading.classList.remove('active');
     activeContainer.classList.remove('bg-gray');
+
+    prdcContainerTrue.classList.add("true")
+});
+
+
+// function removeClassesAfterTimeout() {
+//     setTimeout(() => {
+//         prdcContainerLoading.classList.remove('active');
+//         activeContainer.classList.remove('bg-gray');
+//         console.log("Classes forcefully removed after 3 seconds");
+//     }, 3000); 
+// }
+
+
+// removeClassesAfterTimeout();
+
+
+//! Modal-4
+
+const prdcContainerTrue = document.querySelector(".prdc-container-true");
+const closeBtn4 = document.querySelector(".modal_close_btn_4");
+
+closeBtn4.addEventListener("click", () => {
+    prdcContainerTrue.classList.remove("true")
 });

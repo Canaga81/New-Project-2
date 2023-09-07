@@ -676,6 +676,94 @@ html {
     
 }
 
+/*! True */
+
+.prdc-container-true {
+    opacity: 0;
+    transition: var(--transition-button);
+    /* display: none; */
+    visibility: hidden;
+}
+
+.prdc-container-true.true {
+    opacity: 1;
+    visibility: visible;
+    transition: var(--transition-button);
+    width: 87.4rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 47rem;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(176, 176, 176, 0.5);
+    padding: 8rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 100;
+}
+
+.prdc-container-true.true .prdc-icon .modal_close_btn_4 i {
+    position: absolute;
+    top: 3rem;
+    right: 3.6rem;
+    font-size: 1.5rem;
+    color: rgb(210, 153, 153);
+    cursor: pointer;
+    transition: var(--transition-text);
+}
+
+/* .prdc-container-true.true {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+} */
+
+.prdc-container-true.true .prdc-icon-check {
+    width: 7rem;
+    height: 7rem;
+    background-color: #09B39D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.prdc-container-true.true .prdc-icon-check i {
+    color: #fff;
+    font-size: 3.6rem;
+}
+
+.prdc-container-true.true .prdc-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.prdc-container-true.true .prdc-text h2 {
+    color: var(--baslig-color);
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.prdc-container-true.true .prdc-text p {
+    width: 52.2rem;
+    color: #69768B;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
 /*! Tech */
 
 .tech {
