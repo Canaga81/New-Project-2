@@ -52,6 +52,10 @@ html {
     line-height: normal;
 }
 
+.header-logo a img {
+    width: 100%;
+}
+
 /*? Header Social */
 
 .header-navbar-1 .header-social {
@@ -132,6 +136,14 @@ html {
 .header-navbar-2 .header-languages a:hover {
     font-weight: 800;
 }
+
+.header-navbar-2 .header-list .icon-list i {
+    font-size: 3rem;
+    color: var(--orange-color);
+    display: none;
+}
+
+/*  */
 
 /*! Heavy */
 
@@ -1575,5 +1587,27 @@ footer {
 }
 
 @media(max-width: 405px) {
-    
+
+    /*! General */
+
+    html {
+        font-size: 38.5%;
+    }
+
+    /*! Header */
+
+    .header-navbar-2 .header-btns {
+        display: none;
+    }
+
+    /*? Language */
+
+    .header-navbar-2 .header-languages a {
+        display: none;
+    }
+
+    .header-navbar-2 .header-list .icon-list i {
+        display: block;
+    }
+
 }
