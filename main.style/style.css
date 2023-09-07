@@ -1001,7 +1001,7 @@ html {
 /*? Right */
 
 .choose-right .choose-image {
-    width: 67.7rem;
+    max-width: 67.7rem;
     height: 46.1rem;
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
@@ -1279,6 +1279,29 @@ footer {
 
     .choose {
         padding: 7rem 2.5rem;
+    }
+
+    .choose-left .choose-paragraph {
+        width: 36.3rem;
+    }
+
+    .choose-right .choose-image {
+        height: 42.1rem;
+        margin-top: 5rem;
+    }
+
+    /*! Footer */
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    /*? Right */
+
+    .footer-right {
+        gap: 10rem;
     }
 
 }
