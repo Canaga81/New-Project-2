@@ -1097,3 +1097,89 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
+
+/*! Responsive */
+
+@media(max-width: 1285px) {
+
+    /*! General */
+
+    html {
+        font-size: 50.5%;
+    }
+
+}
+
+@media(max-width: 1050px) {
+
+    html {
+        font-size: 48.5%;
+    }
+
+    /*! Kategoriyalar */
+
+    .kategoriyalar-top-container h2 {
+        text-align: center;
+    }
+
+    .kategoriya-card {
+        width: 42.5rem;
+    }
+
+}
+
+@media(max-width: 840px) {
+
+    html {
+        font-size: 46.5%;
+    }
+
+    /*! Header */
+
+    /*? Navbar-1(Yuxari) */
+
+    .header-navbar-1 {
+        padding: 1.4rem 2.5rem;
+    }
+
+    /*! Navbar-2(Asagi) */
+
+    .header-navbar-2 {
+        padding: 0 2.5rem;
+    }
+
+    .header-navbar-2 .header-btns {
+        display: flex;
+        align-items: center;
+        gap: 3.4rem;
+    }
+
+    /*! Heavy */
+
+    .heavy {
+        padding: 0 2.5rem;
+    }
+
+    /*? H1 */
+
+    .heavy-left .heavy-text h1 {
+        width: 46rem;
+    }
+
+    /*? Paragraph(p) */
+
+    .heavy-left .heavy-text .heavy-paragraph {
+        width: 42rem;
+    }
+
+    /*! Kategoriyalar */
+
+    .kategoriyalar {
+        padding: 4.5rem 2.5rem;
+    }
+
+    .kategoriyalar-top-container h2 {
+        text-align: center;
+    }
+
+}
