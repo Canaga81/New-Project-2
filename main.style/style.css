@@ -1001,11 +1001,10 @@ html {
 .choose-left .choose-paragraph p {
     color: var(--text-color);
     font-family: Mulish;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-    /* 150% */
 }
 
 /*? Right */
@@ -1868,6 +1867,7 @@ footer {
         width: 100%;
         height: 520px;
         padding: 8rem 2rem;
+        margin-top: -5rem;
     }
 
     .email-top h2 {
@@ -1876,7 +1876,7 @@ footer {
     }
 
     .email-top .email-paragraph {
-        width: 350px; 
+        width: 350px;
     }
 
     .email-top .email-paragraph p {
@@ -1912,6 +1912,57 @@ footer {
 
     .email-right .email-image {
         display: none;
+    }
+
+    /*! Choose */
+
+    .choose {
+        padding: 7rem 0rem;
+    }
+
+    .choose-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*? Left */
+
+    .choose-left h2 {
+        font-size: 50px;
+        color: #fff;
+        padding: 0 2rem;
+    }
+
+    .choose-left h2 span {
+        font-size: 10px;
+        color: #fff;
+    }
+
+    .choose-left .choose-paragraph {
+        width: 350px;
+    }
+
+    .choose-left .choose-paragraph p {
+        color: #fff;
+        font-size: 14px;
+        padding: 0 2rem;
+    }
+
+    /*? Right */
+
+    .choose-right .choose-image {
+        margin-bottom: 50rem;
+        margin-top: -80rem;
+        background: transparent;
+        position: relative;
+        z-index: -1;
+    }
+
+    .choose-right .choose-image img {
+        padding: 0;
+        width: 100%;
+        width: 100%;
+        height: 597px;
     }
 
 }
