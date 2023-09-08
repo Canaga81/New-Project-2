@@ -1297,10 +1297,18 @@ footer {
         height: 59.4rem;
     }
 
+    .tech-center-container .tech-card .tech-text-content .tech-button a {
+        font-size: 1.9rem;
+    }
+
     /*! Companies */
 
     .companies {
         padding: 7rem 1rem;
+    }
+
+    .companies-top-container h2 {
+        font-size: 3.9rem;
     }
 
     /*! New */
@@ -1308,6 +1316,27 @@ footer {
     .new {
         padding: 9rem 2.5rem;
     }
+
+    .new-top-container h2 {
+        font-size: 3.9rem;
+    }
+
+    .new-card {
+        height: 54.8rem;
+    }
+
+    .new-card-text-head h4 {
+        font-size: 2.1rem;
+    }
+
+    .new-card-text-head .new-card-paragraph p {
+        font-size: 1.9rem;
+    }
+
+    .new-card-history p {
+        font-size: 1.6rem;
+    }
+    
 
     /*? H2 */
 
@@ -1332,12 +1361,17 @@ footer {
 
     .email-top h2 {
         width: 36rem;
+        font-size: 3.9rem;
     }
 
     /*? Paragraph(p)  */
 
     .email-top .email-paragraph {
         width: 37.2rem;
+    }
+
+    .email-top .email-paragraph p {
+        font-size: 1.8rem;
     }
 
     .form-inputs .email-inputs input {
@@ -1348,6 +1382,10 @@ footer {
         padding-left: 2.3rem;
         outline: none;
         padding-right: 1.5rem;
+    }
+
+    .form-inputs .email-inputs input::placeholder {
+        font-size: 1.8rem;
     }
 
     /*? Input */
@@ -1362,6 +1400,10 @@ footer {
         width: 37.2rem;
     }
 
+    .email-button .share {
+        font-size: 1.9rem;
+    }
+
     /*? Image */
 
     .email-right .email-image {
@@ -1374,9 +1416,26 @@ footer {
         padding: 7rem 2.5rem;
     }
 
+    .choose-left h2 {
+        font-size: 5.4rem;
+    }
+
+    .choose-left h2 span {
+        font-size: 1.5rem;
+    }
+
     .choose-left .choose-paragraph {
         width: 36.3rem;
     }
+
+    .choose-left .choose-paragraph p {
+        font-size: 1.9rem;
+        line-height: 27px;
+    }
+
+    /*? Right */
+
+    /*? Image */
 
     .choose-right .choose-image {
         height: 42.1rem;
@@ -1389,6 +1448,18 @@ footer {
         display: flex;
         align-items: center;
         gap: 5rem;
+    }
+
+    .footer-right .footer-content a {
+        font-size: 1.9rem;
+    }
+
+    .footer-right .footer-content-2 p {
+        font-size: 2.1rem;
+    }
+
+    .footer-right .footer-content-2 .footer-social a i {
+        font-size: 2.7rem;
     }
 
     /*? Right */
@@ -1658,7 +1729,7 @@ footer {
 
 }
 
-@media(max-width: 405px) {
+@media(max-width: 412px) {
 
     /*! General */
 
