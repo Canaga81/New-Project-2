@@ -1972,4 +1972,33 @@ footer {
         height: 597px;
     }
 
+    /*! Footer */
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right .footer-content a {
+        font-size: 14px;
+    }
+
+    .footer-right .footer-content-2 p {
+        font-size: 16px;
+    }
+
+    .footer-right .footer-content-2 .footer-social a i {
+        font-size: 22px;
+    }
+
+    .footer-bottom-container p {
+        font-size: 12px;
+    }
+
+    .footer-right {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
 }
