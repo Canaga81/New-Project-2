@@ -1709,4 +1709,119 @@ footer {
         margin-left: 2rem;
     }
 
+    /*! Test */
+
+    .test {
+        padding: 9rem 2rem;
+    }
+
+    .test-left .test-image {
+        display: none;
+    }
+
+    .test-container {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+    /*? Right */
+
+    .test-right .test-text-content .test-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        margin-top: -15rem;
+    }
+
+    .test-right .test-image img {
+        width: 100%;
+        padding: 0;
+        width: 390px;
+        height: 597px;
+        flex-shrink: 0;
+    }
+
+    .test-right .test-text-content .test-text h1 {
+        width: 350px;
+        /* padding: 0 2rem; */
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .test-right .test-text-content .test-text .test-paragraph {
+        width: 350px;
+    }
+
+    .test-right .test-text-content .test-text .test-paragraph p {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        /* padding: 0 2rem; */
+    }
+
+    .test-right .test-text-content .test-button .test-btn {
+        background: #fff;
+    }
+
+    .test-right .test-text-content .test-button .test-btn a {
+        color: var(--text-color);
+        font-family: Mulish;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0 2rem;
+        display: inline-block;
+    }
+
+    /*! Tech */
+
+    .tech {
+        padding: 9rem 0rem;
+    }
+
+    .tech-top-container h2 {
+        padding: 8rem 2rem;
+        font-size: 30px;
+    }
+
+    .tech-center-container .tech-card {
+        width: 350px;
+        height: 510px;
+        background: #FFF;
+        box-shadow: 0px 0px 20px 0px rgba(175, 175, 175, 0.25);
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-begin .tech-h4 {
+        font-size: 18px;
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-begin .tech-name {
+        font-size: 14px;
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-continue .history {
+        font-size: 14px;
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-line-2 .tech-money p {
+        font-size: 18px;
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-button a {
+        width: 310px;
+        height: 40px;
+        border-radius: 30px;
+        border: 1px solid var(--text-color);
+        font-size: 12px;
+    }
+
 }
