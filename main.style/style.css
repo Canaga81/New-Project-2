@@ -1599,11 +1599,11 @@ footer {
     /*? Navbar-1 */
 
     .header-navbar-1 {
-        padding: 1.4rem 1rem;
+        padding: 1.4rem 2rem;
     }
 
     .header-navbar-2 {
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
 
     .header-navbar-2 .header-btns {
@@ -1622,10 +1622,15 @@ footer {
 
     /*! Heavy */
 
+    .heavy {
+        padding: 0 2rem;
+    }
+
     .heavy-container {
         display: flex;
         flex-direction: column;
         position: relative;
+        margin-top: -30rem;
     }
 
     .heavy-right .heavy-image {
@@ -1643,11 +1648,16 @@ footer {
     }
 
     .heavy-left .heavy-text h1 {
-        color: #ddd6d6;
+        color: #fff;
     }
 
     .heavy-left .heavy-text .heavy-paragraph p {
-        color: #ddd6d6;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
     }
 
     .heavy-left .heavy-button {
@@ -1659,6 +1669,44 @@ footer {
 
     .heavy-left-image .left-image img {
         display: none;
+    }
+
+    /*? Button */
+
+    .heavy-left .heavy-button .heavy-btn {
+        background: #fff;
+    }
+
+    .heavy-right .heavy-image {
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .heavy-right .heavy-image img {
+        width: 100%;
+        padding: 0;
+    }
+
+    /*! Kategoriyalar */
+
+    .kategoriyalar {
+        padding: 4.5rem 2rem;
+    }
+
+    .kategoriya-card .card-image img {
+        display: none;
+    }
+
+    .kategoriya-card {
+        width: 165px;
+        height: 84px;
+        background: #FFF;
+        box-shadow: 0px 0px 7px 0px rgba(164, 164, 164, 0.25), 0px 1px 7px 0px rgba(194, 194, 194, 0.25) inset;
+    }
+
+    .kategoriyalar-top-container h2 {
+        text-align: start;
+        margin-left: 2rem;
     }
 
 }
