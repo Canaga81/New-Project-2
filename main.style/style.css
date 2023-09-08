@@ -143,6 +143,12 @@ html {
     display: none;
 }
 
+/*? Active */
+
+.header-active {
+    display: none;
+}
+
 /*  */
 
 /*! Heavy */
@@ -1185,6 +1191,34 @@ footer {
 
     .header-navbar-2 .header-languages a {
         font-size: 1.8rem;
+    }
+
+    /*? Active */
+
+    .header-active {
+        display: none;
+    }
+
+    .header-icon-texts {
+        display: flex;
+        justify-content: space-between;
+        padding: 2.6rem 2rem;
+        width: 100%;
+        height: 68px;
+    }
+
+    .header-x-mark .icon-mark i {
+        font-size: 3.6rem;
+        color: var(--orange-color);
+        padding-top: 2rem;
+        padding-right: 0.6rem;
+    }
+
+    .header-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 32px;
     }
 
     /*! Heavy */
