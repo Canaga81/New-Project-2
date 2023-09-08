@@ -1824,4 +1824,43 @@ footer {
         font-size: 12px;
     }
 
+    /*! Companies */
+
+    .companies-top-container h2 {
+        font-size: 30px;
+    }
+
+    /*! New */
+
+    .new {
+        padding: 9rem 2rem;
+    }
+
+    .new-top-container h2 {
+        font-size: 30px;
+    }
+
+    /*? Card */
+
+    .new-card {
+        width: 350px;
+        height: 405px;
+    }
+
+    .new-card-text-head h4 {
+        font-size: 16px;
+    }
+
+    .new-card-text-head .new-card-paragraph {
+        width: 310px;
+    }
+
+    .new-card-text-head .new-card-paragraph p {
+        font-size: 14px;
+    }
+
+    .new-card-history p {
+        font-size: 12px;
+    }
+
 }
