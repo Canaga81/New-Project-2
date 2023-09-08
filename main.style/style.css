@@ -1214,11 +1214,62 @@ footer {
         padding-right: 0.6rem;
     }
 
+    .btns-language {
+        display: flex;
+        flex-direction: column;
+        gap: 95px;
+    }
+
     .header-btns {
         display: flex;
         flex-direction: column;
         gap: 25px;
-        margin-top: 32px;
+        padding-top: 32px;
+        padding-left: 20px;
+    }
+
+    .header-btns a {
+        color: var(--text-color);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: var(--transition-text);
+    }
+
+    .header-btns a:hover {
+        color: var(--hover-color);
+    }
+
+    .header-btns .btn-icon {
+        display: flex;
+        align-items: center;
+        gap: 7.15px;
+    }
+
+    .header-btns .btn-icon i {
+        font-size: 10px;
+        color: var(--orange-color);
+    }
+
+    .header-languages {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header-languages a {
+        color: var(--text-color);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: var(--transition-text);
+    }
+
+    .header-languages a:hover {
+        font-weight: 800;
     }
 
     /*! Heavy */
