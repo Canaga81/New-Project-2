@@ -23,10 +23,6 @@ let swiper = new Swiper(".mySwiper", {
       slidesPerView: 4,
       spaceBetween: 40
     },
-    // 1440:{
-    //   slidesPerView: 4,
-    //   spaceBetween: 0
-    // }
 }});
 
 
