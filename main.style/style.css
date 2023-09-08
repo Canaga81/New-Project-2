@@ -1046,7 +1046,6 @@ footer {
 .footer-right {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 15rem;
 }
 
@@ -1158,6 +1157,14 @@ footer {
         padding: 1.4rem 2.5rem;
     }
 
+    .header-navbar-1 .header-social a i {
+        font-size: 1.8rem;
+    }
+
+    .header-navbar-1 .header-text-num p {
+        font-size: 1.8rem;
+    }
+
     /*! Navbar-2(Asagi) */
 
     .header-navbar-2 {
@@ -1170,6 +1177,16 @@ footer {
         gap: 3.4rem;
     }
 
+    .header-navbar-2 .header-btns a {
+        font-size: 1.9rem;
+    }
+
+    /*? Languages */
+
+    .header-navbar-2 .header-languages a {
+        font-size: 1.8rem;
+    }
+
     /*! Heavy */
 
     .heavy {
@@ -1180,12 +1197,21 @@ footer {
 
     .heavy-left .heavy-text h1 {
         width: 46rem;
+        font-size: 5.4rem;
     }
 
     /*? Paragraph(p) */
 
     .heavy-left .heavy-text .heavy-paragraph {
         width: 42rem;
+    }
+
+    .heavy-left .heavy-text .heavy-paragraph p {
+        font-size: 1.8rem;
+    }
+
+    .heavy-left .heavy-button .heavy-btn a {
+        font-size: 1.8rem;
     }
 
     /*! Kategoriyalar */
@@ -1204,6 +1230,14 @@ footer {
         padding-top: 2.5rem;
     }
 
+    .kategoriyalar-top-container h2 {
+        font-size: 3.9rem;
+    }
+
+    .kategoriya-card .card-text p {
+        font-size: 2.7rem;
+    }
+
     /*! Test */
 
     .test {
@@ -1217,10 +1251,50 @@ footer {
         gap: 3rem;
     }
 
+    .test-right .test-text-content .test-text h1 {
+        font-size: 5.4rem;
+    }
+
+    .test-right .test-text-content .test-text .test-paragraph p {
+        font-size: 1.9rem;
+        line-height: 27px;
+    }
+
+    .test-right .test-text-content .test-button .test-btn a {
+        font-size: 1.9rem;
+    }
+
     /*! Tech */
 
     .tech {
         padding: 9rem 2.5rem;
+    }
+
+    .tech-top-container h2 {
+        font-size: 3.9rem;
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-begin .tech-h4 {
+        font-size: 2.4rem;
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-begin .tech-name {
+        font-size: 1.9rem;
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-line-1 .tech-continue .history {
+        font-size: 1.9rem;
+    }
+
+    .tech-center-container .tech-card .tech-text-content .tech-line-2 .tech-money p {
+        font-size: 2.4rem;
+    }
+
+    /*? Card */
+
+    .tech-center-container .tech-card {
+        width: 31.5rem;
+        height: 59.4rem;
     }
 
     /*! Companies */
@@ -1717,7 +1791,7 @@ footer {
     /*! Test */
 
     .test {
-        padding: 9rem 2rem;
+        padding: 9rem 0rem;
     }
 
     .test-left .test-image {
@@ -1739,12 +1813,15 @@ footer {
         margin-top: -15rem;
     }
 
+    .test-right .test-image {
+        width: 100%;
+    }
+
     .test-right .test-image img {
         width: 100%;
         padding: 0;
-        width: 390px;
+        width: 100%;
         height: 597px;
-        flex-shrink: 0;
     }
 
     .test-right .test-text-content .test-text h1 {
@@ -1827,6 +1904,16 @@ footer {
         border-radius: 30px;
         border: 1px solid var(--text-color);
         font-size: 12px;
+    }
+
+    .tech-center-container .buttons .fa-arrow-right {
+        display: none;
+    }
+    
+    /*? Left Button */
+    
+    .tech-center-container .buttons .fa-arrow-left {
+        display: none;
     }
 
     /*! Companies */
