@@ -875,7 +875,6 @@ html {
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-    /* 150% */
 }
 
 /*? Bottom (Form) */
@@ -1861,6 +1860,58 @@ footer {
 
     .new-card-history p {
         font-size: 12px;
+    }
+
+    /*! Email */
+
+    .email {
+        width: 100%;
+        height: 520px;
+        padding: 8rem 2rem;
+    }
+
+    .email-top h2 {
+        width: 350px;
+        font-size: 30px;
+    }
+
+    .email-top .email-paragraph {
+        width: 350px; 
+    }
+
+    .email-top .email-paragraph p {
+        font-size: 14px;
+    }
+
+    .form-inputs .email-inputs input {
+        width: 350px;
+        height: 40px;
+    }
+
+    .form-inputs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .email-button {
+        width: 350px;
+        height: 40px;
+    }
+
+    .email-button .share {
+        font-size: 12px;
+    }
+
+    .form-inputs .email-inputs input::placeholder {
+        font-size: 12px;
+    }
+
+    /*? Right */
+
+    .email-right .email-image {
+        display: none;
     }
 
 }
