@@ -1621,28 +1621,35 @@ footer {
     /*! Heavy */
 
     .heavy {
-        padding: 0 2rem;
+        padding: 0 0;
+        /* margin-top: 30rem; */
+        margin-bottom: 30rem;
     }
 
     .heavy-container {
         display: flex;
         flex-direction: column;
         position: relative;
-        margin-top: -30rem;
     }
 
     .heavy-right .heavy-image {
         background: #FFF;
         box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
         cursor: pointer;
+    }
 
+    .heavy-right .heavy-image img {
+        width: 100%;
+        padding: 0;
+        width: 100%;
+        height: 597px;
     }
 
     .heavy-text {
         position: absolute;
         z-index: 2;
-        bottom: -340px;
-        left: -100px;
+        bottom: -500px;
+        left: -180px;
     }
 
     .heavy-left .heavy-text h1 {
@@ -1660,8 +1667,8 @@ footer {
 
     .heavy-left .heavy-button {
         position: absolute;
-        bottom: -390px;
-        left: -100px;
+        bottom: -540px;
+        left: -180px;
         z-index: 1000;
     }
 
