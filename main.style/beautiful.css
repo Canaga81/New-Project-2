@@ -502,3 +502,143 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
+
+/*! Responsive */
+
+@media(max-width: 1285px) {
+
+    /*! General */
+
+    html {
+        font-size: 50.5%;
+    }
+
+}
+
+@media(max-width: 1050px) {
+
+    /*! General */
+
+    html {
+        font-size: 48.5%;
+    }
+
+}
+
+@media(max-width: 840px) {
+
+    /*! General */
+
+    html {
+        font-size: 46.5%;
+    }
+
+    /*! Header */
+
+    /*? Navbar-1(Yuxari) */
+
+    .header-navbar-1 {
+        padding: 1.4rem 2.5rem;
+    }
+
+    .header-navbar-1 .header-social a i {
+        font-size: 1.8rem;
+    }
+
+    .header-navbar-1 .header-text-num p {
+        font-size: 1.8rem;
+    }
+
+    /*! Navbar-2(Asagi) */
+
+    .header-navbar-2 {
+        padding: 0 2.5rem;
+    }
+
+    .header-navbar-2 .header-btns {
+        display: flex;
+        align-items: center;
+        gap: 3.4rem;
+    }
+
+    .header-navbar-2 .header-btns a {
+        font-size: 1.9rem;
+    }
+
+    /*? Languages */
+
+    .header-navbar-2 .header-languages a {
+        font-size: 1.8rem;
+    }
+
+    /*! Footer */
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .footer-right .footer-content a {
+        font-size: 1.9rem;
+    }
+
+    .footer-right .footer-content-2 p {
+        font-size: 2.1rem;
+    }
+
+    .footer-right .footer-content-2 .footer-social a i {
+        font-size: 2.7rem;
+    }
+
+    /*? Right */
+
+    .footer-right {
+        gap: 10rem;
+    }
+
+}
+
+@media(max-width: 720px) {
+
+    /*! Header */
+
+    /*? Navbar-2(Asagi) */
+
+    .header-navbar-2 {
+        gap: 3rem;
+    }
+
+}
+
+@media(max-width: 648px) {
+
+    /*! General */
+
+    html {
+        font-size: 40.5%;
+    }
+
+    /*! Header */
+
+    /*? Asagidaki Navbar */
+
+    .header-navbar-2 {
+        gap: 2rem;
+    }
+
+    /*? Buttons */
+
+    .header-navbar-2 .header-btns {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    /*? Button */
+
+    .header-navbar-2 .header-btns a {
+        font-size: 1.6rem;
+    }
+
+}
