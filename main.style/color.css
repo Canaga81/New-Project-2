@@ -590,3 +590,59 @@ footer {
     }
 
 }
+
+@media(max-width: 720px) {
+
+    /*! Header */
+
+    /*? Navbar-2(Asagi) */
+
+    .header-navbar-2 {
+        gap: 3rem;
+    }
+
+}
+
+@media(max-width: 648px) {
+
+    /*! General */
+
+    html {
+        font-size: 40.5%;
+    }
+
+    /*! Header */
+
+    /*? Asagidaki Navbar */
+
+    .header-navbar-2 {
+        gap: 2rem;
+    }
+
+    /*? Buttons */
+
+    .header-navbar-2 .header-btns {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    /*? Button */
+
+    .header-navbar-2 .header-btns a {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media(max-width: 575px) {
+
+    /*! Header */
+
+    /*? Asagidaki Navbar */
+
+    .header-navbar-2 {
+        gap: 1.5rem;
+    }
+
+}
