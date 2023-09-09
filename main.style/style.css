@@ -149,6 +149,33 @@ html {
     display: none;
 }
 
+/*? Toggle */
+
+header .header-container {
+    position: relative;
+}
+
+.header-btns-toggle {
+    display: none;
+}
+
+.header-btns-toggle.active {
+    display: block;
+    position: absolute;
+    display: flex;
+    top: 84%;
+    left: 50%;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: var(--text-color);
+    border-radius: 0.5rem;
+}
+
+.header-btns-toggle.active .icon-b {
+    color: #fff;
+}
+
 /*  */
 
 /*! Heavy */
@@ -1769,6 +1796,10 @@ footer {
         display: block;
     }
 
+    .header-btns-toggle .icon-a {
+        font-size: 20px;
+    }
+
     /*? Active */
 
     .header-active {
@@ -1855,11 +1886,11 @@ footer {
         margin-left: -150px;
     }
 
-    .header-btns .btn-icon.active .icon-a {
+    .header-btns .btn-icon .active {
         display: block;
     }
 
-    .header-btns .btn-icon .icon-a {
+    .header-btns .btn-icon2 {
         display: none;
     }
 

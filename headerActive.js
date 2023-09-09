@@ -18,8 +18,9 @@ xMarkButton.addEventListener("click", () => {
 //! ----------------------------------------------------------------
 
 const faChevronDown = document.querySelector(".btn-i");
-const btnIcon = document.querySelector(".btn-icon");
+const btnIcon = document.querySelector(".btn-icon2");
 
 faChevronDown.addEventListener("click", () => {
     btnIcon.classList.toggle('active');
+    console.log('ses');
 });
