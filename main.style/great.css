@@ -624,6 +624,14 @@ footer {
         gap: 1.5rem;
     }
 
+    /*! Pictures */
+
+    .pictures-center-container {
+        display: flex;
+        flex-direction: column;
+        gap: 18rem;
+    }
+
 }
 
 @media(max-width: 561px) {
