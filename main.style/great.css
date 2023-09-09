@@ -52,6 +52,10 @@ html {
     line-height: normal;
 }
 
+.header-logo a img {
+    width: 100%;
+}
+
 /*? Header Social */
 
 .header-navbar-1 .header-social {
@@ -69,7 +73,7 @@ html {
     color: var(--hover-color);
 }
 
-/*? Altdaki Navbar */
+/*? Asagidaki Navbar */
 
 .header-navbar-2 {
     width: 100%;
@@ -94,7 +98,7 @@ html {
 .header-navbar-2 .header-btns a {
     color: var(--text-color);
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -132,6 +136,49 @@ html {
 .header-navbar-2 .header-languages a:hover {
     font-weight: 800;
 }
+
+.header-navbar-2 .header-list .icon-list i {
+    font-size: 3rem;
+    color: var(--orange-color);
+    display: none;
+}
+
+/*? Active */
+
+.header-active {
+    display: none;
+}
+
+/*? Toggle */
+
+header .header-container {
+    position: relative;
+}
+
+.header-btns-toggle {
+    display: none;
+}
+
+.header-btns-toggle.active {
+    display: block;
+    position: absolute;
+    display: flex;
+    top: 84%;
+    left: 50%;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: var(--text-color);
+    border-radius: 0.5rem;
+    z-index: 1000;
+}
+
+.header-btns-toggle.active .icon-b {
+    color: #fff;
+    font-size: 2rem;
+}
+
+/*  */
 
 /*! Pictures */
 
