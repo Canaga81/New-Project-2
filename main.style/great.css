@@ -241,7 +241,7 @@ header .header-container {
 }
 
 .pictures-left .pictures-paragraph {
-    width: 46.8rem;
+    max-width: 46.8rem;
     height: 13.6rem;
 }
 
@@ -257,8 +257,8 @@ header .header-container {
 /*? Right */
 
 .pictures-right .pictures-image {
-    width: 83.7rem;
-    height: 55.8rem;
+    max-width: 83.7rem;
+    max-height: 55.8rem;
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
     cursor: pointer;
@@ -296,13 +296,15 @@ header .header-container {
     align-items: center;
     gap: 2rem;
     position: relative;
+    flex-wrap: wrap;
 }
 
 /*? Card-Style */
 
 .tech-center-container .tech-card {
     position: relative;
-    width: 31.5rem;
+    max-width: 31.5rem;
+    min-width: 24rem;
     height: 38.2rem;
     flex-shrink: 0;
     background: #FFF;
@@ -519,6 +521,25 @@ footer {
 
     .header-navbar-2 .header-languages a {
         font-size: 1.8rem;
+    }
+
+    /*! Pictures */
+
+    .pictures {
+        padding: 0 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 9rem;
+    }
+
+    .pictures-left .pictures-paragraph p {
+        font-size: 1.9rem;
+        line-height: 22.5px;
+    }
+
+    /*! Tech */
+
+    .tech {
+        padding: 9rem 2.5rem;
     }
 
     /*! Footer */
