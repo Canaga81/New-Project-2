@@ -29,6 +29,7 @@ let swiper = new Swiper(".mySwiper", {
     },
 }});
 
+
 let swiper3 = new Swiper(".heSwiper", {
   loop:true,
   navigation: {
