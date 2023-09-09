@@ -183,7 +183,9 @@ header .header-container {
 /*! Rent */
 
 .rent {
-    padding: 2rem 6rem;
+    padding: 0rem 6rem;
+    padding-top: 2rem;
+    padding-bottom: 16rem;
 }
 
 .rent-container {
@@ -206,7 +208,7 @@ header .header-container {
 .rent-top-container p a {
     color: var(--ana-sehife-text-color);
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -242,8 +244,8 @@ header .header-container {
 }
 
 .rent-left .rent-image {
-    width: 42rem;
-    height: 63rem;
+    max-width: 42rem;
+    max-height: 63rem;
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
     cursor: pointer;
@@ -269,8 +271,8 @@ header .header-container {
 }
 
 .rent-right .rent-image {
-    width: 83.7rem;
-    height: 55.8rem;
+    max-width: 83.7rem;
+    max-height: 55.8rem;
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
     cursor: pointer;
@@ -287,8 +289,8 @@ header .header-container {
 }
 
 .rent-right .rent-text .rent-paragraph {
-    width: 67rem;
-    height: 26.8rem;
+    max-width: 67rem;
+    max-height: 26.8rem;
 }
 
 .rent-right .rent-text .rent-paragraph p {
@@ -515,6 +517,39 @@ footer {
         font-size: 48.5%;
     }
 
+    .rent-right .rent-text .rent-paragraph p {
+        color: var(--text-color);
+        font-family: Mulish;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    /*! Condition */
+
+    .condition-top-container h2 {
+        font-size: 3.9rem;
+    }
+
+    .joke-toggle {
+        font-size: 2.1rem;
+    }
+
+    .joke-title {
+        font-size: 2.1rem;
+    }
+
+    .joke.active .joke-toggle .fa-plus {
+        font-size: 2rem;
+    }
+
+    .joke-toggle .fa-times {
+        font-size: 1.6rem;
+        padding: 0.9rem;
+        color: #FFAB21;
+    }
+
 }
 
 @media(max-width: 840px) {
@@ -592,6 +627,34 @@ footer {
 }
 
 @media(max-width: 720px) {
+
+    .rent-top-container p {
+        color: var(--baslig-color);
+        font-family: Mulish;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .rent-top-container p a {
+        color: var(--ana-sehife-text-color);
+        font-family: Mulish;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: var(--transition-text);
+    }
+
+    .rent-right .rent-text .rent-paragraph p {
+        color: var(--text-color);
+        font-family: Mulish;
+        font-size: 1.9rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+    }
 
     /*! Header */
 
