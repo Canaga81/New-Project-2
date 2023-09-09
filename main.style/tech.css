@@ -233,7 +233,7 @@ header .header-container {
 /*? Home-Buttons */
 
 .home-center-container .home-buttons {
-    width: 126rem;
+    max-width: 126rem;
     height: 4rem;
     border-radius: 30px;
     border: 1px solid #353535;
@@ -646,6 +646,24 @@ footer {
         font-size: 1.8rem;
     }
 
+    /*! Home */
+
+    .home-top-container p {
+        font-size: 2rem;
+    }
+
+    .home-top-container p a {
+        font-size: 2rem;
+    }
+
+    .home-center-container h2 {
+        font-size: 4.5rem;
+    }
+
+    .home-center-container .home-buttons a {
+        font-size: 1.65rem;
+    }
+
     /*! Tech */
 
     .tech {
@@ -772,6 +790,17 @@ footer {
 }
 
 @media(max-width: 555px) {
+
+    .home-center-container .home-buttons a {
+        color: var(--text-color);
+        font-family: Mulish;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 1rem;
+        transition: var(--transition-button);
+    }
 
     /*! Footer */
 
@@ -925,6 +954,19 @@ footer {
 
     .header-btns .btn-icon2 {
         display: none;
+    }
+
+    /*! Home */
+
+    .home-center-container .home-buttons a {
+        color: var(--text-color);
+        font-family: Mulish;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 1rem;
+        transition: var(--transition-button);
     }
 
     /*! Tech */
