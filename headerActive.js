@@ -24,3 +24,11 @@ faChevronDown.addEventListener("click", () => {
     btnIcon.classList.toggle('active');
     console.log('ses');
 });
+
+
+const headerBtnsToggle = document.querySelector('.header-btns-toggle');
+const btnForm = document.querySelector('.btn-form');
+
+btnForm.addEventListener("click", () => {
+    headerBtnsToggle.classList.toggle('active');
+});

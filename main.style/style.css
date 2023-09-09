@@ -170,10 +170,12 @@ header .header-container {
     padding: 1rem 1.5rem;
     background-color: var(--text-color);
     border-radius: 0.5rem;
+    z-index: 1000;
 }
 
 .header-btns-toggle.active .icon-b {
     color: #fff;
+    font-size: 2rem;
 }
 
 /*  */
