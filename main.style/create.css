@@ -628,6 +628,63 @@ footer {
         font-size: 1.8rem;
     }
 
+    /*! Test */
+
+    .test {
+        padding: 9rem 2.5rem;
+    }
+
+    .test-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 3rem;
+    }
+
+    .test-right .test-text-content .test-text h1 {
+        font-size: 5.4rem;
+    }
+
+    .test-right .test-text-content .test-text .test-paragraph p {
+        font-size: 1.9rem;
+        line-height: 27px;
+    }
+
+    .test-right .test-text-content .test-button .test-btn a {
+        font-size: 1.9rem;
+    }
+
+    /*! Choose */
+
+    .choose {
+        padding: 7rem 2.5rem;
+    }
+
+    .choose-left h2 {
+        font-size: 5.4rem;
+    }
+
+    .choose-left h2 span {
+        font-size: 1.5rem;
+    }
+
+    .choose-left .choose-paragraph {
+        width: 36.3rem;
+    }
+
+    .choose-left .choose-paragraph p {
+        font-size: 1.9rem;
+        line-height: 27px;
+    }
+
+    /*? Right */
+
+    /*? Image */
+
+    .choose-right .choose-image {
+        height: 42.1rem;
+        margin-top: 5rem;
+    }
 
     /*! Footer */
 
