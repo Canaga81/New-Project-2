@@ -942,6 +942,12 @@ footer {
         font-size: 1.8rem;
     }
 
+    .message-inputs-container .message-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
     /*! Footer */
 
     .footer-container {
