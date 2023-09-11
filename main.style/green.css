@@ -219,7 +219,8 @@ header .header-container {
 
 .press-center-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 10rem;
 }
 
 /*? Left */
@@ -255,8 +256,8 @@ header .header-container {
 }
 
 .press-left .press-paragraph {
-    width: 61.8rem;
-    height: 31.7rem;
+    max-width: 61.8rem;
+    min-height: 31.7rem;
 }
 
 .press-left .press-paragraph p {
@@ -271,8 +272,8 @@ header .header-container {
 /*? Right */
 
 .press-right .press-image {
-    width: 66.8rem;
-    height: 44.6rem;
+    max-width: 66.8rem;
+    max-height: 44.6rem;
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
     cursor: pointer;
@@ -437,6 +438,40 @@ footer {
 
     .header-navbar-2 .header-languages a {
         font-size: 1.8rem;
+    }
+
+    /*! Press */
+
+    .press {
+        padding: 0 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 10rem;
+    }
+
+    .press-top-container p {
+        font-size: 1.9rem;
+    }
+
+    .press-top-container p a {
+        font-size: 1.9rem;
+    }
+
+    .press-center-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .press-left .press-head h1 {
+        font-size: 5.7rem;
+    }
+
+    .press-left .press-head p {
+        font-size: 1.8rem;
+    }
+
+    .press-left .press-paragraph p {
+        font-size: 2.1rem;
     }
 
     /*! Footer */
