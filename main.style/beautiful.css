@@ -932,6 +932,16 @@ footer {
         display: none;
     }
 
+    /*! Message */
+
+    .message-top-container p {
+        font-size: 1.8rem;
+    }
+    
+    .message-top-container p a {
+        font-size: 1.8rem;
+    }
+
     /*! Footer */
 
     .footer-container {
