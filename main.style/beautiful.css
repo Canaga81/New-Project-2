@@ -523,6 +523,13 @@ footer {
         font-size: 48.5%;
     }
 
+    /*! Message */
+
+    .message-center-container {
+        display: flex;
+        gap: 10rem;
+    }
+
 }
 
 @media(max-width: 840px) {
@@ -569,6 +576,31 @@ footer {
 
     .header-navbar-2 .header-languages a {
         font-size: 1.8rem;
+    }
+
+    /*! Message */
+
+    .message {
+        padding: 0 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 9rem;
+    }
+
+    .message-center-container {
+        display: flex;
+        gap: 5rem;
+    }
+
+    .message-inputs-container .message-inputs input {
+        width: 25rem;
+    }
+
+    .message-textarea textarea {
+        width: 52.5rem;
+    }
+
+    .message-button .message-btn {
+        width: 52.5rem;
     }
 
     /*! Footer */
